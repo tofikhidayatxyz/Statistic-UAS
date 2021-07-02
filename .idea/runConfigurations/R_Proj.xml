@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="R Proj" type="R" singleton="false">
+    <r-file-path value="main.R" />
+    <working-directory value="" />
+    <interpreter-arguments value="" />
+    <script-arguments value="" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>
