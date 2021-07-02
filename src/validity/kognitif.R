@@ -1,7 +1,7 @@
 
 
-MIN_COL<-1
-MAX_COL<-16
+MIN_COL<-31
+MAX_COL<-34
 
 baseData <- list()
 sumMaxData <- c()
@@ -13,11 +13,9 @@ for (idx in MIN_COL:MAX_COL) {
 }
 
 
-
 # recount max data 
 loopIdx <- 0;
 for(dataSource in baseData) {
-  ## 
   loopIdx <- loopIdx + 1
   print(dataSource)
   rowIxd = 0
@@ -29,10 +27,9 @@ for(dataSource in baseData) {
 } 
 
 
-## Analisis uji validasi
 rowIxd = 0
 for(dataSource in baseData) {
   rowIxd <- rowIxd + 1
-  print(paste("UJI VALIDITAS ALOKASI", rowIxd))
+  print(paste("UJI VALIDITAS KOGNITIF", rowIxd))
   print(cor.test(dataSource, sumMaxData))
 }
