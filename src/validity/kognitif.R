@@ -1,7 +1,0 @@
-
-
-MIN_COL<-31
-MAX_COL<-34
-
-
-validityTest(MIN_COL, MAX_COL, "KOGNITIF")

@@ -1,4 +1,0 @@
-MIN_COL<-23
-MAX_COL<-27
-
-validityTest(MIN_COL, MAX_COL, "KONSULTASI")

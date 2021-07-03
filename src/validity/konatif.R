@@ -1,6 +1,0 @@
-
-
-MIN_COL<-35
-MAX_COL<-36
-
-validityTest(MIN_COL, MAX_COL, "KONATIF")

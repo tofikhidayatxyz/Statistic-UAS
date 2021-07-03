@@ -1,6 +1,0 @@
-
-
-MIN_COL<-1
-MAX_COL<-16
-
-validityTest(MIN_COL, MAX_COL, "ALOKASI")

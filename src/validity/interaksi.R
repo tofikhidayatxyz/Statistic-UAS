@@ -1,6 +1,0 @@
-
-
-MIN_COL<-17
-MAX_COL<-22
-
-validityTest(MIN_COL, MAX_COL, "INTERAKSI")

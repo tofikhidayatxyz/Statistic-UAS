@@ -37,10 +37,17 @@ validityTest <- function(MIN_COL, MAX_COL, NAME) {
 }
 
 # call file
-source(file="src/validity/alokasi.R")
-source(file="src/validity/interaksi.R")
-source(file="src/validity/konsultasi.R")
-source(file="src/validity/registrasi.R")
-source(file="src/validity/kognitif.R")
-source(file="src/validity/konatif.R")
-source(file="src/validity/afektif.R")
+
+validityTest(1, 16, "ALOKASI")
+
+validityTest(17, 22, "INTERAKSI")
+
+validityTest(23, 27, "KONSULTASI")
+
+validityTest(28, 30, "REGISTRASI")
+
+validityTest(31, 34, "KONGITIF")
+
+validityTest(35, 36, "KONATIF")
+
+validityTest(37, 39, "AFEKTIF")

@@ -1,6 +1,0 @@
-
-
-MIN_COL<-37
-MAX_COL<-39
-
-validityTest(MIN_COL, MAX_COL, "AFEKTIF")
