@@ -1,3 +1,5 @@
+library(data.table)
+
 data <- read.csv('data/master-data.csv', header = FALSE)
 
 ## Uji validitas variabel 1
@@ -32,9 +34,12 @@ validityTest <- function(MIN_COL, MAX_COL, NAME) {
   for(dataSource in baseData) {
     rowIxd <- rowIxd + 1
     print(paste("UJI VALIDITAS", NAME, rowIxd))
-    print(cor.test(dataSource, sumMaxData))
+    restData <- cor.test(dataSource, sumMaxData)
+    #print(restData)
+    print(paste("Name : ", NAME, "p-value : ", restData$p.value, "cor : ", restData$estimate))
   }
 }
+
 
 # call file
 
